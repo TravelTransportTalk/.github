@@ -1,12 +1,31 @@
-## Hi there 👋
+# Еду поболтать (DevDays 2024 Spring)
 
-<!--
+## Описание
+Приложение для поиска собеседников в путешествиях на общественных и не только транспортах (самолёты, поезда, электрички, автобусы).
 
-**Here are some ideas to get you started:**
+## Возможности
+1. Регистрация новой анкеты на выбранный рейс
+2. Просмотр уже созданных анкет по выбранным направлениям с возможностью фильрации
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Состав команды
+- Вильданов Эмир — Frontend Developer
+- Фролов Михаил — Fullstack Developer
+- Аленькова Юлия — Backend Developer
+- Еленский Михаил — DevOps Engineer
+- Филонов Всеволод — Backend Developer
+
+## Компоненты системы
+- [TravelTalk](https://github.com/TravelTransportTalk/TravelTalk) — WebUI на Streamlit
+- [travel-talk-server](https://github.com/TravelTransportTalk/travel-talk-server) — Backend-сервер, написанный на Java + Spring
+- [register-bot](https://github.com/TravelTransportTalk/register-bot) — Telegram-бот для быстрой регистрации пользователей
+
+Дополнительно:
+- [tf-infra](https://github.com/TravelTransportTalk/tf-infra) — описание инфраструктуры на Terraform
+- [k8s-infra](https://github.com/TravelTransportTalk/k8s-infra) — параметры всех системных инструментов внутри кластера
+
+## Инструкция по запуску
+### Kubernetes
+TODO
+
+### Docker Compose
+TODO
