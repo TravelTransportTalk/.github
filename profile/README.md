@@ -24,8 +24,10 @@
 - [k8s-infra](https://github.com/TravelTransportTalk/k8s-infra) — параметры всех системных инструментов внутри кластера
 
 ## Инструкция по запуску
-### Kubernetes
-TODO
-
 ### Docker Compose
-TODO
+```
+$ git clone https://github.com/TravelTransportTalk/.github travel-talk
+$ cd travel-talk
+$ <replace BOT_TOKEN in compose.yml>
+$ docker compose up -d
+```
