@@ -28,6 +28,14 @@
 ```
 $ git clone https://github.com/TravelTransportTalk/.github travel-talk
 $ cd travel-talk
+# download data from https://drive.google.com/file/d/1WeRqdW5IQBqlCH6VKS5XPRGnFcpQhAZi/view?usp=sharing
+# load data from into table using \copy
+$ docker compose --profile db up -d
+$ psql -h localhost -p 5435 -WU postgres
+  db=# \copy stations_raw
+       FROM '/path/to/flat_stations_russia.csv'
+       DELIMITER ','
+       CSV HEADER;
 $ <replace BOT_TOKEN in compose.yml>
-$ docker compose up -d
+$ docker compose --profile all up -d
 ```
